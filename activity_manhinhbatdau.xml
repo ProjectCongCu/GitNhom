@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTintMode="screen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/khung1"
+        android:id="@+id/RelativeBackGround1"></RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:background="@drawable/khung2chonman"
+        android:id="@+id/RelativeBackGround2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAboutBatDau"
+
+            android:background="@drawable/about"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/btnPlayBatDau"
+            android:layout_alignRight="@+id/btnPlayBatDau"
+            android:layout_alignEnd="@+id/btnPlayBatDau"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnPlayBatDau"
+            android:background="@drawable/play"
+
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/imgLogoBatDau"
+            android:layout_alignRight="@+id/imgLogoBatDau"
+            android:layout_alignEnd="@+id/imgLogoBatDau" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:id="@+id/imgLogoBatDau"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo12"
+            android:focusableInTouchMode="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSoundBatDau"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/sound_on"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:background="@drawable/khung3"
+        android:id="@+id/RelativeBackGround3"></RelativeLayout>
+
+
+</LinearLayout>
+
+
+
+
